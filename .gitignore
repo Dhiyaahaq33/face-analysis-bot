@@ -1,0 +1,32 @@
+# secrets - never commit
+.env
+.env.*
+!.env.example
+DATA.env
+secrets.toml
+!secrets.toml.example
+*.pem
+*.key
+credentials.json
+token.json
+
+# runtime state / local data
+*.db
+*.sqlite
+*.sqlite3
+journal_*.csv
+*_state.csv
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# node
+node_modules/
+
+# os
+.DS_Store
+Thumbs.db
